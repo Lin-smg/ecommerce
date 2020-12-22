@@ -20,22 +20,22 @@
     </div> -->
     <nuxt-link :to="{ name: 'product_detail' }">
     <b-card
-      img-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSThMY6Cw7_GB1wLy1w8E95AJ6Z8iT48MDciw&usqp=CAU"
+      img-src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 20rem; text-align: center"
+      style="max-width: 20rem; text-align: center; color: #000"
       class="mb-2"
     >
-      <b-card-text>
+      <!-- <b-card-text> -->
         <h6>Product Name</h6>
         <div>
-          <b-icon v-for="i of 5" :key="i" icon="star-fill" aria-hidden="true"></b-icon>
+          <!-- <b-icon v-for="i of 5" :key="i" icon="star-fill" aria-hidden="true"></b-icon> -->
         </div>
         <p> $ 2000 </p>
-      </b-card-text>
+      <!-- </b-card-text> -->
 
-      <b-button href="#" variant="primary">Add to Cart</b-button>
+      <b-button href="#" variant="outline-primary" size="sm">Add to Cart</b-button>
     </b-card>
     </nuxt-link>
   </div>

@@ -1,7 +1,7 @@
 <template>
-  <div class="footer font-small lighten-3 pt-4 mt-4">
-    
-
+  <div class="footer font-small lighten-3 pt-4">
+  
+    <hr>
     <b-container class="text-center text-md-left">
       <b-row class="text-center text-md-left mt-3 pb-3">
         <b-col md="3" lg="3" xl="3" class="mx-auto mt-3">
@@ -38,12 +38,7 @@
       </b-row>
       <hr />
       <b-row class="d-flex align-items-center">
-        <!-- <b-col md="8" lg="8">
-          <p class="text-center text-md-left grey-text">
-            &copy; 2020 Copyright:
-            <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-          </p>
-        </b-col> -->
+        
         <b-col md="12" lg="12" class="ml-lg-0">
           <div class="text-center text-md-center">
             <ul class="list-unstyled list-inline">

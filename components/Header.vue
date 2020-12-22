@@ -70,15 +70,15 @@
                 size="sm"
                 class="my-2 my-sm-0"
                 type="submit"
-                variant="success"
+                variant="outline-primary"
                 >Search</b-button
               >
             </b-nav-form>
             <b-nav-item> Some Text Head </b-nav-item>
 
             <b-nav-item
-              ><b-button variant="success"
-                >Cart <b-icon icon="cart-fill"></b-icon></b-button
+              ><b-button variant="outline-primary"
+                >Cart<b-icon icon="cart-fill"></b-icon><b-badge pill variant="success">4</b-badge></b-button
             ></b-nav-item>
 
             <b-nav-item-dropdown right>
@@ -93,15 +93,6 @@
         </b-collapse>
       </b-navbar>
 
-      <!-- <b-navbar class="three" toggleable="lg" type="dark" variant="dark" sticky>
-        <b-navbar-nav center>
-          <b-nav-item href="/category" right>New Arrival</b-nav-item>
-          <b-nav-item href="#" right>Brands</b-nav-item>
-          <b-nav-item href="#" right>Category One</b-nav-item>
-          <b-nav-item href="#" right>Category Two</b-nav-item>
-          <b-nav-item href="#" right>Category Three</b-nav-item>
-        </b-navbar-nav>
-      </b-navbar> -->
       
 
     </div>
@@ -121,7 +112,7 @@ export default {
   border-bottom: 1px solid #cfd2c9f2;
 }
 .two.navbar.navbar-light.bg-dark {
-  background-color: #f7f8f4 !important;
+  background-color: #fff !important;
   height: auto;
   padding: 20px;
 }

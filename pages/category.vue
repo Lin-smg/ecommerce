@@ -1,14 +1,21 @@
 <template>
   <div class="category" type="light" variant="info">
     <b-row>
-      <b-col cols="3">
+      <b-col cols="12" md="3">
         <b-card header="Filter" header-tag="header">
-          Category : <br/>
-          <ul class="list-group vertical-menu" >
+          Category : <br />
+          <b-list-group>
+            <b-list-group-item>Cras justo odio</b-list-group-item>
+            <b-list-group-item>Dapibus ac facilisis in</b-list-group-item>
+            <b-list-group-item>Morbi leo risus</b-list-group-item>
+            <b-list-group-item>Porta ac consectetur ac</b-list-group-item>
+            <b-list-group-item>Vestibulum at eros</b-list-group-item>
+          </b-list-group>
+          <!-- <ul class="list-group vertical-menu" size="small">
             <li class="list-group-item active">Active item</li>
             <li class="list-group-item">Second item</li>
             <li class="list-group-item">Third item</li>
-          </ul>
+          </ul> -->
           <hr />
 
           <b-form>
@@ -25,12 +32,16 @@
           </b-form>
         </b-card>
       </b-col>
-      <b-col cols="9">
+      <b-col cols="12" md="9">
         <div class="card text-right">
-          <div class="card-body">  
-            <b-nav-form style="float: left">          
-              Sort by: 
-              <b-form-select v-model="selected" size="sm" :options="options"></b-form-select>
+          <div class="card-body">
+            <b-nav-form style="float: left">
+              Sort by:
+              <b-form-select
+                v-model="selected"
+                size="sm"
+                :options="options"
+              ></b-form-select>
             </b-nav-form>
             <b-nav-form style="float: right">
               <b-form-input
@@ -43,7 +54,7 @@
                 size="sm"
                 class="my-2 my-sm-0"
                 type="submit"
-                variant="success"
+                variant="outline-primary"
                 >Search</b-button
               >
             </b-nav-form>
@@ -51,7 +62,7 @@
         </div>
         <br />
         <b-row>
-          <b-col cols="3" v-for="i of 9" :key="i">
+          <b-col cols="12" md="3" v-for="i of 9" :key="i">
             <product />
           </b-col>
         </b-row>
@@ -84,18 +95,18 @@ export default {
         { text: "Pineapple", value: "pineapple" },
         { text: "Grape", value: "grape" },
       ],
-       selected: null,
-        options: [
-          { value: null, text: '----' },
-          { value: 'a', text: 'one' },
-          { value: 'b', text: 'two' },
-          { value: 'c', text: 'three' },
-        ]
+      selected: null,
+      options: [
+        { value: null, text: "----" },
+        { value: "a", text: "one" },
+        { value: "b", text: "two" },
+        { value: "c", text: "three" },
+      ],
     };
   },
   created() {
-    console.log('current route', this.$nuxt.$route)
-  }
+    console.log("current route", this.$nuxt.$route);
+  },
 };
 </script>
 
