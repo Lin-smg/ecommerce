@@ -10,6 +10,8 @@
         </div>
         <div class="col-6">
             <h6>Kodak 'Brownie' Flash B Camera</h6>    
+            <span>Brand</span>,
+            <span> size </span>
         </div>
         <div class="col-3">
             <div class="row">

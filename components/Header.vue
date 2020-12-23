@@ -1,7 +1,6 @@
 <template>
   <div>
     <div>
-
       <b-navbar class="one" toggleable="lg" type="light" variant="light">
         <b-nav-item-dropdown
           style="top: -15px"
@@ -14,46 +13,29 @@
           <b-dropdown-item href="#">ES</b-dropdown-item>
           <b-dropdown-item href="#">RU</b-dropdown-item>
         </b-nav-item-dropdown>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-         <b-navbar-nav class="ml-auto">
-            <b-nav-item>
-              My Wishlist
-            </b-nav-item> 
-            <b-nav-item>
-              |
-            </b-nav-item>
-            <b-nav-item>
-              Sign In
-            </b-nav-item>
-            <b-nav-item>
-              |
-            </b-nav-item> 
-            <b-nav-item>
-              Register
-            </b-nav-item> 
-            <b-nav-item>
-              |
-            </b-nav-item>
-            <b-nav-item>
-              Store Locator
-            </b-nav-item>
-            <b-nav-item>
-              |
-            </b-nav-item> 
-            <b-nav-item>
-              Facebook
-            </b-nav-item>       
-          </b-navbar-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item> My Wishlist </b-nav-item>
+          <b-nav-item> | </b-nav-item>
+          <b-nav-item> Sign In </b-nav-item>
+          <b-nav-item> | </b-nav-item>
+          <b-nav-item> Register </b-nav-item>
+          <b-nav-item> | </b-nav-item>
+          <b-nav-item> Store Locator </b-nav-item>
+          <b-nav-item> | </b-nav-item>
+          <b-nav-item> Facebook </b-nav-item>
+        </b-navbar-nav>
       </b-navbar>
 
       <b-navbar class="two" toggleable="lg" type="light" variant="dark">
         <b-avatar
           variant="info"
           src="https://placekitten.com/300/300"
-           size="3rem"
+          size="3rem"
         ></b-avatar>
-        <b-navbar-brand href="#" style="margin-left: 20px"> Title Here</b-navbar-brand>
+        <b-navbar-brand href="#" style="margin-left: 20px">
+          Title Here</b-navbar-brand
+        >
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -78,8 +60,10 @@
 
             <b-nav-item
               ><b-button variant="outline-primary"
-                >Cart<b-icon icon="cart-fill"></b-icon><b-badge pill variant="success">4</b-badge></b-button
-            ></b-nav-item>
+                >Cart<b-icon icon="cart-fill"></b-icon
+                ><b-badge pill variant="success">4</b-badge></b-button
+              ></b-nav-item
+            >
 
             <b-nav-item-dropdown right>
               <!-- Using 'button-content' slot -->
@@ -92,9 +76,6 @@
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
-
-      
-
     </div>
   </div>
 </template>

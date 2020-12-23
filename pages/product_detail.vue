@@ -178,6 +178,13 @@
           </b-card>
         </div>
       </div>
+
+      <div class="row">
+        <!-- <ProductZoomer
+          :base-images="images"
+          :base-zoomer-options="zoomerOptions"
+        /> -->
+      </div>
     </b-container>
   </div>
 </template>
@@ -190,6 +197,50 @@ export default {
   data() {
     return {
       value: 1,
+      images: {
+          'thumbs': [
+            {
+              'id': 1,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            },
+            {
+              'id': 2,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            }
+          ],
+          'normal_size': [
+            {
+              'id': 1,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            },
+            {
+              'id': 2,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            }
+          ],
+          'large_size': [
+            {
+              'id': 1,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            },
+            {
+              'id': 2,
+              'url': 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            }
+          ]
+      },
+      zoomerOptions: {
+        zoomFactor: 3, // scale for zoomer
+        pane: 'pane', // three type of pane ['pane', 'container-round', 'container']
+        hoverDelay: 300, // how long after the zoomer take effect
+        namespace: 'zoomer', // add a namespace for zoomer component, useful when on page have mutiple zoomer
+        move_by_click:false, // move image by click thumb image or by mouseover
+        scroll_items: 5, // thumbs for scroll
+        choosed_thumb_border_color: "#bbdefb", // choosed thumb border color
+        scroller_button_style: "line",
+        scroller_position: "left",
+        zoomer_pane_position: "right"
+      }
     };
   },
 };

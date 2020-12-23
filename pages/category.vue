@@ -1,5 +1,6 @@
 <template>
-  <div class="category" type="light" variant="info">
+  <div class="category">
+    <b-container style="padding: 16px;">
     <b-row>
       <b-col cols="12" md="3">
         <b-card header="Filter" header-tag="header">
@@ -78,6 +79,7 @@
         <b-button variant="primary" href="#">More Info</b-button>
       </b-jumbotron>
     </div>
+    </b-container>
   </div>
 </template>
 
@@ -112,9 +114,7 @@ export default {
 
 <style scoped>
 .category {
-  padding-top: 16px;
-  padding-left: 55px;
-  padding-right: 55px;
+  background: #f7f8f4;
 }
 
 .vertical-menu {
