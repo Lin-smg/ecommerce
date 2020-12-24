@@ -1,4 +1,5 @@
 export default {
+  router: { base: '/ecommerce-buildup/' },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 

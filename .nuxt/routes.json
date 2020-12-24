@@ -1,0 +1,44 @@
+[
+  {
+    "name": "category",
+    "path": "/category",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\category.vue",
+    "chunkName": "pages/category",
+    "_name": "_4e8e0cad"
+  },
+  {
+    "name": "checkout",
+    "path": "/checkout",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\checkout.vue",
+    "chunkName": "pages/checkout",
+    "_name": "_e7558e16"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "_name": "_5a29e0e4"
+  },
+  {
+    "name": "product_detail",
+    "path": "/product_detail",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\product_detail.vue",
+    "chunkName": "pages/product_detail",
+    "_name": "_143a4690"
+  },
+  {
+    "name": "product_list",
+    "path": "/product_list",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\product_list.vue",
+    "chunkName": "pages/product_list",
+    "_name": "_417263c6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\nuxt\\\\ecommerce-buildUp\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4297b49a"
+  }
+]
